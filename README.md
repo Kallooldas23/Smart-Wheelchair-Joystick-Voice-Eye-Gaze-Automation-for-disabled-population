@@ -1,23 +1,39 @@
-Developed an intelligent assistive mobility solution for physically challenged individuals, integrating joystick, voice, and eye-gaze based navigation with real-time obstacle avoidance. The system utilizes Raspberry Pi 4, Arduino Uno, OpenCV, MediaPipe, Vosk Speech Recognition, and Google Cloud Speech-to-Text to enable hands-free and accessible wheelchair control. Ultrasonic sensors continuously monitor the surroundings to prevent collisions, enhancing user safety and independence. The project compares offline and online speech recognition techniques and evaluates eye-gaze control as an alternative input method for users with severe mobility impairments. Designed as a low-cost, scalable solution with potential future integration of autonomous navigation and health monitoring features.
+♿ Smart Wheelchair System with Voice, Eye-Gaze & Obstacle Avoidance:
 
-Technologies Used
-Raspberry Pi 4 Model B
-Arduino Uno R3
-OpenCV
-MediaPipe Face Mesh
-Vosk Speech Recognition
-Google Cloud Speech-to-Text
-Python
-Embedded C/C++
-L298N Motor Driver
-HC-SR04 Ultrasonic Sensors
-Raspberry Pi Camera V2
-IoT & Assistive Technologies
-Key Features
-Voice-controlled wheelchair navigation
-Eye-gaze based movement control
-Joystick-based manual operation
-Real-time obstacle detection and avoidance
-Offline and online speech recognition modes
-Low-cost and accessible design for healthcare applications
-Modular architecture for future AI-based autonomous navigation and health monitoring
+An AI-powered assistive mobility solution designed to enhance independence, accessibility, and safety for individuals with physical disabilities through Voice Control, Eye-Gaze Tracking, Joystick Navigation, and Real-Time Obstacle Avoidance.
+
+🚀 Project Overview:
+
+The Smart Wheelchair System is an intelligent mobility platform that combines Computer Vision, Speech Recognition, Embedded Systems, and IoT technologies to provide a seamless and user-friendly navigation experience.
+
+The wheelchair can be controlled using:
+
+🎙️ Voice Commands
+👁️ Eye-Gaze Tracking
+🎮 Joystick Control
+
+To ensure user safety, the system continuously monitors its surroundings using ultrasonic sensors and automatically prevents collisions by detecting nearby obstacles.
+
+✨ Key Features:
+
+🎙️ Voice-Controlled Navigation
+Online Speech Recognition using Google Cloud ASR
+Offline Speech Recognition using Vosk ASR
+Real-time command execution
+Supports hands-free mobility
+👁️ Eye-Gaze Controlled Movement
+Eye tracking using OpenCV & MediaPipe
+Detects gaze direction in real time
+Designed for users with severe mobility impairments
+🎮 Joystick-Based Manual Control
+Intuitive manual navigation
+Smooth directional movement
+Reliable backup control mechanism
+🚧 Intelligent Obstacle Avoidance
+Multi-directional obstacle detection
+Automatic collision prevention
+Enhanced user safety in indoor and outdoor environments
+🔗 IoT & Embedded Integration
+Raspberry Pi handles AI processing
+Arduino manages motor control
+Serial communication between controllers
