@@ -1,0 +1,2 @@
+# Smart-Wheelchair-Joystick-Voice-Eye-Gaze-Automation-for-disabled-population
+Developed a Smart Wheelchair System featuring joystick, voice, and eye-gaze control with real-time obstacle avoidance. Implemented using Raspberry Pi, Arduino, OpenCV, MediaPipe, and Vosk Speech Recognition to enhance mobility and independence for physically challenged users through an affordable and intelligent assistive technology solution.
