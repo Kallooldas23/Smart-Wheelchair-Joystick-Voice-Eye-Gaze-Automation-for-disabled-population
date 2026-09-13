@@ -17,9 +17,9 @@ To ensure user safety, the system continuously monitors its surroundings using u
 ✨ Key Features:
 
 🎙️ Voice-Controlled Navigation
-Online Speech Recognition using Google Cloud ASR
-Offline Speech Recognition using Vosk ASR
-Real-time command execution
+Online Speech Recognition using Google Cloud ASR |
+Offline Speech Recognition using Vosk ASR |
+Real-time command execution |
 Supports hands-free mobility
 👁️ Eye-Gaze Controlled Movement
 Eye tracking using OpenCV & MediaPipe
