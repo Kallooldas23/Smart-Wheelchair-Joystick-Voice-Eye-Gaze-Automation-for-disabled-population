@@ -1,57 +1,22 @@
 ♿ Smart Wheelchair System with Voice, Eye-Gaze & Obstacle Avoidance
 
-An AI-powered assistive mobility solution designed to enhance independence, accessibility, and safety for individuals with physical disabilities through Voice Control, Eye-Gaze Tracking, Joystick Navigation, and Real-Time Obstacle Avoidance.
+An AI-powered assistive mobility platform combining Voice Control, Eye-Gaze Tracking, Joystick Navigation, and Real-Time Obstacle Avoidance to enhance independence and safety for individuals with physical disabilities.
 
-🚀 Project Overview
+🚀 Overview
 
-The Smart Wheelchair System is an intelligent mobility platform that combines Computer Vision, Speech Recognition, Embedded Systems, and IoT technologies to provide a seamless and user-friendly navigation experience.
-
-The wheelchair can be controlled using:
-🎙️ Voice Commands · 👁️ Eye-Gaze Tracking · 🎮 Joystick Control
-
-To ensure user safety, the system continuously monitors its surroundings using ultrasonic sensors and automatically prevents collisions by detecting nearby obstacles.
+Built using Computer Vision, Speech Recognition, Embedded Systems, and IoT, the wheelchair supports three control modes — 🎙️ Voice, 👁️ Eye-Gaze, 🎮 Joystick — and uses ultrasonic sensors for automatic obstacle detection and collision prevention.
 
 ✨ Key Features
+🎙️ Voice Control: Google Cloud ASR (online) + Vosk (offline) for hands-free navigation
+👁️ Eye-Gaze Control: OpenCV & MediaPipe-based gaze tracking for severe mobility impairments
+🎮 Joystick Control: Smooth, reliable manual backup navigation
+🚧 Obstacle Avoidance: Multi-directional detection with automatic collision prevention
+🔗 IoT/Embedded: Raspberry Pi (AI processing) + Arduino (motor control) via serial communication
+📜 IP Status — German Utility Model (Registered)
 
-🎙️ Voice-Controlled Navigation
+Registered with the DPMA as a Gebrauchsmuster.
 
-Online Speech Recognition using Google Cloud ASR
-Offline Speech Recognition using Vosk ASR
-Real-time command execution
-Supports hands-free mobility
-
-👁️ Eye-Gaze Controlled Movement
-
-Eye tracking using OpenCV & MediaPipe
-Detects gaze direction in real time
-Designed for users with severe mobility impairments
-
-🎮 Joystick-Based Manual Control
-
-Intuitive manual navigation
-Smooth directional movement
-Reliable backup control mechanism
-
-🚧 Intelligent Obstacle Avoidance
-
-Multi-directional obstacle detection
-Automatic collision prevention
-Enhanced user safety in indoor and outdoor environments
-
-🔗 IoT & Embedded Integration
-
-Raspberry Pi handles AI processing
-Arduino manages motor control
-Serial communication between controllers
-📜 Intellectual Property / Patent Status
-
-German Utility Model (Gebrauchsmuster) — Registered
-This project's core system has been granted utility model protection by the German Patent and Trade Mark Office (Deutsches Patent- und Markenamt, DPMA).
-
-Registration No.: 20 2026 105 170
-Title: System für einen intelligenten Rollstuhl mit multimodaler Benutzersteuerung und Hindernisvermeidung ("System for an Intelligent Wheelchair with Multimodal User Control and Obstacle Avoidance")
-IPC Classification: A61G 5/04
-Filing Date: 25.08.2026
-Registration Date: 08.09.2026
-Registered Owners: Kallool Kanti Das (Hojai, Assam), Abhishek Dey (Karimganj, Assam), Mariam Jabali Laskar (Silchar, Assam), Reshmi Paul (Silchar, Assam)
-Issuing Authority: Deutsches Patent- und Markenamt, München
+Reg. No.: 20 2026 105 170
+IPC: A61G 5/04
+Filed: 25.08.2026 | Registered: 08.09.2026
+Owners: K. K. Das, A. Dey, M. J. Laskar, R. Paul (Assam, India)
